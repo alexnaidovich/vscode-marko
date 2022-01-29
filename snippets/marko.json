@@ -40,5 +40,15 @@
     "prefix": "log",
     "body": ["$ console.log(${1:object})"],
     "description": "Log data in within the template"
+  },
+  "macro": {
+    "prefix": "macro",
+    "body": ["<macro|{${1:vars}}| name=\"${2:name}\">\n\t${3:body}\n</macro>\n"],
+    "description": "<macro> tag"
+  },
+  "log server var": {
+    "prefix": "lg",
+    "body": ["<script>console.log(\${JSON.stringify(${1:object})})</script>"],
+    "description": "Log template vars into browser's console"
   }
 }
