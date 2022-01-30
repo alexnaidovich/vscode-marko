@@ -47,8 +47,13 @@
     "description": "<macro> tag"
   },
   "log server var": {
-    "prefix": "lg",
-    "body": ["<script>console.log(${JSON.stringify(${1:object})})</script>"],
+    "prefix": "lgg",
+    "body": ["<script>console.log(${JSON.stringify(${1:object})})</script>\n"],
     "description": "Log template vars into browser's console"
+  },
+  "attribute tag": {
+    "prefix": "@@",
+    "body": ["<@${1:tag}>\n\t$3\n</@${1:tag}>\n$2"],
+    "description": "attribute tags (<@tag></@tag>)"
   }
 }
