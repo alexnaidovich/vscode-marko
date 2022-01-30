@@ -1,9 +1,9 @@
 {
   "name": "marko",
-  "displayName": "Marko Syntax Highlighting",
+  "displayName": "Marko Syntax Highlighting (Alex Naidovich fork)",
   "description": "Syntax highlighting for Marko templates. Not sure what Marko is? Check out markojs.com for more info! Special thanks to https://github.com/merwan7 for creating the sublime originals!",
-  "version": "0.2.0",
-  "publisher": "pcanella",
+  "version": "0.5.1",
+  "publisher": "alexnaidovich",
   "engines": {
     "vscode": "^0.10.10"
   },
@@ -41,6 +41,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/pcanella/vscode-marko.git"
+    "url": "git://github.com/alexnaidovich/vscode-marko.git"
   }
 }
