@@ -27,7 +27,7 @@
     "description": "async-fragment tag"
   },
   "ternary operator": {
-    "prefix": "?",
+    "prefix": "tern",
     "body": ["{${1:expression} ? ${2:trueTemplate} : ${3:falseTemplate}}"],
     "description": "ternary operator"
   },
