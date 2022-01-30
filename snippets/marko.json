@@ -48,7 +48,7 @@
   },
   "log server var": {
     "prefix": "lg",
-    "body": ["<script>console.log(\${JSON.stringify(${1:object})})</script>"],
+    "body": ["<script>console.log($${JSON.stringify(${1:object})})</script>"],
     "description": "Log template vars into browser's console"
   }
 }
