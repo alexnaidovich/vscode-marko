@@ -1,22 +1,22 @@
 {
   "for tag": {
     "prefix": "for",
-    "body": ["<for|${1:item}| of=${2:items}>\n\t$3\n</for>\n"],
+    "body": ["<for|${1:item}| of=${2:items}>\n\t$3\n</for><!-- $1 of $2 -->\n"],
     "description": "for tag"
   },
   "if tag": {
     "prefix": "if",
-    "body": ["<if(${1:condition})>\n\t$2\n</if>\n"],
+    "body": ["<if(${1:condition})>\n\t$2\n</if><!-- $1 -->\n"],
     "description": "if tag"
   },
   "else-if tag": {
     "prefix": "else-if",
-    "body": ["<else-if(${1:condition})>\n\t$2\n</else-if>\n"],
+    "body": ["<else-if(${1:condition})>\n\t$2\n</else-if><!-- $1 -->\n"],
     "description": "else-if tag"
   },
   "else tag": {
     "prefix": "else",
-    "body": ["<else>$1</else>\n"],
+    "body": ["<else>\n\t$2\n</else><!-- $1 -->\n"],
     "description": "else tag"
   },
   "await tag": {
