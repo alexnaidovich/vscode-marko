@@ -52,7 +52,7 @@
     "description": "Log template vars into browser's console"
   },
   "attribute tag": {
-    "prefix": "@@",
+    "prefix": "attr",
     "body": ["<@${1:tag}>\n\t$3\n</@${1:tag}>\n$2"],
     "description": "attribute tags (<@tag></@tag>)"
   }
